@@ -39,6 +39,41 @@
       "question": "Which is NOT a primitive data type in JavaScript?",
       "options": ["string", "number", "object", "boolean"],
       "answer": "object"
+    },
+    {
+      "question": "What is the result of `typeof null`?",
+      "options": ["null", "undefined", "object", "string"],
+      "answer": "object"
+    },
+    {
+      "question": "What does the `==` operator do in JavaScript?",
+      "options": [
+        "Checks for value equality without type coercion",
+        "Checks for value equality with type coercion",
+        "Assigns a value",
+        "Checks for reference equality"
+      ],
+      "answer": "Checks for value equality with type coercion"
+    },
+    {
+      "question": "Which symbol is used for the modulo (remainder) operator?",
+      "options": ["/", "*", "%", "&"],
+      "answer": "%"
+    },
+    {
+        "question": "What will `console.log(!!'Hello')` output?",
+        "options": ["true", "false", "Hello", "undefined"],
+        "answer": "true"
+    },
+    {
+        "question": "What is hoisting in JavaScript?",
+        "options": [
+            "Moving variable declarations to the top of their scope before execution",
+            "A way to lift values out of functions",
+            "An error handling mechanism",
+            "A method for optimizing loops"
+        ],
+        "answer": "Moving variable declarations to the top of their scope before execution"
     }
   ],
   "js-functions": [
@@ -71,6 +106,46 @@
       "question": "What keyword is used to define a function?",
       "options": ["def", "fun", "function", "define"],
       "answer": "function"
+    },
+    {
+      "question": "What is a function that calls itself known as?",
+      "options": [
+        "Recursive function",
+        "Callback function",
+        "Anonymous function",
+        "Arrow function"
+      ],
+      "answer": "Recursive function"
+    },
+    {
+      "question": "What does IIFE stand for?",
+      "options": [
+        "Instantly Invoked Function Expression",
+        "Immediately Invoked Function Expression",
+        "Internally Interpreted Function Execution",
+        "Initially Integrated Function Environment"
+      ],
+      "answer": "Immediately Invoked Function Expression"
+    },
+    {
+      "question": "Which syntax allows a function to accept an indefinite number of arguments as an array?",
+      "options": [
+        "Default parameters",
+        "Spread syntax (...)",
+        "Rest parameters (...)",
+        "Arguments object"
+      ],
+      "answer": "Rest parameters (...)"
+    },
+    {
+        "question": "In a function defined with the `function` keyword, what does `this` refer to when called as a method of an object?",
+        "options": [
+            "The global object (window/global)",
+            "The function itself",
+            "The object the method was called on",
+            "undefined (in strict mode)"
+        ],
+        "answer": "The object the method was called on"
     }
   ],
   "js-arrays": [
@@ -93,6 +168,36 @@
       "question": "How do you access the third element in an array named `myArray`?",
       "options": ["myArray[3]", "myArray(2)", "myArray.get(3)", "myArray[2]"],
       "answer": "myArray[2]"
+    },
+    {
+      "question": "Which method removes the first element from an array and returns that element?",
+      "options": [".pop()", ".shift()", ".slice()", ".splice()"],
+      "answer": ".shift()"
+    },
+    {
+      "question": "Which method creates a shallow copy of a portion of an array into a new array?",
+      "options": [".splice()", ".copy()", ".slice()", ".concat()"],
+      "answer": ".slice()"
+    },
+    {
+      "question": "Which method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place?",
+      "options": [".slice()", ".filter()", ".map()", ".splice()"],
+      "answer": ".splice()"
+    },
+    {
+      "question": "Which method checks if at least one element in the array passes the test implemented by the provided function?",
+      "options": [".every()", ".includes()", ".some()", ".find()"],
+      "answer": ".some()"
+    },
+    {
+        "question": "How can you easily create a new array containing all elements from two existing arrays, `arr1` and `arr2`?",
+        "options": [
+            "arr1.push(arr2)",
+            "arr1.concat(arr2)",
+            "[arr1, arr2]",
+            "arr1 + arr2"
+        ],
+        "answer": "arr1.concat(arr2)"
     }
   ],
   "node-intro": [
@@ -110,6 +215,51 @@
       "question": "Which core module is used for working with the file system in Node.js?",
       "options": ["http", "url", "fs", "path"],
       "answer": "fs"
+    },
+    {
+      "question": "What is the primary purpose of `package.json`?",
+      "options": [
+        "To store application code",
+        "To define project metadata and dependencies",
+        "To configure the Node.js runtime",
+        "To list Git commands"
+      ],
+      "answer": "To define project metadata and dependencies"
+    },
+    {
+      "question": "Which global object provides information about the current Node.js process?",
+      "options": ["window", "document", "process", "global"],
+      "answer": "process"
+    },
+    {
+      "question": "How do you import a core module like `http` in a Node.js file (using CommonJS)?",
+      "options": [
+        "import http from 'http';",
+        "include('http');",
+        "const http = require('http');",
+        "using http;"
+      ],
+      "answer": "const http = require('http');"
+    },
+    {
+        "question": "What does the Node.js event loop enable?",
+        "options": [
+            "Multi-threading by default",
+            "Synchronous code execution only",
+            "Non-blocking I/O operations",
+            "Direct DOM manipulation"
+        ],
+        "answer": "Non-blocking I/O operations"
+    },
+    {
+        "question": "What is the role of `npm` (Node Package Manager)?",
+        "options": [
+            "Executing JavaScript code directly",
+            "Managing project dependencies and running scripts",
+            "Debugging Node.js applications",
+            "Compiling JavaScript to machine code"
+        ],
+        "answer": "Managing project dependencies and running scripts"
     }
   ],
   "react-state": [
@@ -137,6 +287,31 @@
         "It violates JavaScript rules"
       ],
       "answer": "React won't re-render the component"
+    },
+    {
+      "question": "How do you correctly update a state variable based on its previous value using the `useState` setter?",
+      "options": [
+        "setState(newState)",
+        "setState(prevState => prevState + 1)",
+        "this.state = newState",
+        "state = newState"
+      ],
+      "answer": "setState(prevState => prevState + 1)"
+    },
+    {
+      "question": "What is the concept of moving state up to the nearest common ancestor component called?",
+      "options": [
+        "State propagation",
+        "Hoisting state",
+        "Lifting state up",
+        "State delegation"
+      ],
+      "answer": "Lifting state up"
+    },
+    {
+      "question": "Which hook is often preferred over `useState` for managing complex state logic involving multiple sub-values?",
+      "options": ["useRef", "useContext", "useMemo", "useReducer"],
+      "answer": "useReducer"
     }
   ],
   "mongodb-setup": [
@@ -164,6 +339,31 @@
         "Object Database Model"
       ],
       "answer": "Object Document Mapper"
+    },
+    {
+      "question": "What is a 'collection' in MongoDB analogous to in a relational database?",
+      "options": ["A database", "A table", "A row", "A column"],
+      "answer": "A table"
+    },
+    {
+      "question": "What does BSON stand for?",
+      "options": [
+        "Binary Script Object Notation",
+        "Boolean Standard Object Notation",
+        "Binary JSON",
+        "Byte Serialized Object Notation"
+      ],
+      "answer": "Binary JSON"
+    },
+    {
+      "question": "Which command in the MongoDB shell switches to (or creates) a database named 'mydatabase'?",
+      "options": [
+        "show dbs",
+        "use mydatabase",
+        "db.mydatabase.find()",
+        "connect mydatabase"
+      ],
+      "answer": "use mydatabase"
     }
   ],
   "mongoose-crud": [
@@ -186,6 +386,36 @@
         ".findByIdAndUpdate()"
       ],
       "answer": ".findByIdAndUpdate()"
+    },
+    {
+      "question": "Which Mongoose method finds all documents matching criteria?",
+      "options": [".findAll()", ".findMany()", ".find()", ".select()"],
+      "answer": ".find()"
+    },
+    {
+      "question": "Which Mongoose method is used to delete a single document by its ID?",
+      "options": [
+        ".removeById()",
+        ".deleteById()",
+        ".findByIdAndRemove()",
+        ".findByIdAndDelete()"
+      ],
+      "answer": ".findByIdAndDelete()"
+    },
+    {
+      "question": "In Mongoose, what defines the structure of documents within a collection?",
+      "options": ["A Model", "A Schema", "A Query", "A Connection"],
+      "answer": "A Schema"
+    },
+    {
+        "question": "How do you select only specific fields (e.g., 'name' and 'email') when querying with Mongoose `find`?",
+        "options": [
+            "Model.find({}, { projection: { name: 1, email: 1 } })",
+            "Model.find({}, 'name email')",
+            "Model.find({ select: 'name email' })",
+            "Both A and B"
+        ],
+        "answer": "Both A and B"
     }
   ],
   "react-intro": [
@@ -208,6 +438,41 @@
       "question": "What build tool is commonly used to set up modern React projects quickly?",
       "options": ["Webpack", "Parcel", "Vite", "Browserify"],
       "answer": "Vite"
+    },
+    {
+      "question": "What is a React component?",
+      "options": [
+        "A CSS file",
+        "A reusable piece of UI, typically a JavaScript function or class",
+        "A global state container",
+        "An HTML template"
+      ],
+      "answer": "A reusable piece of UI, typically a JavaScript function or class"
+    },
+    {
+      "question": "How do you embed a JavaScript expression (like a variable `name`) inside JSX?",
+      "options": ["[[name]]", "{{name}}", "{name}", "(name)"],
+      "answer": "{name}"
+    },
+    {
+      "question": "What does the Virtual DOM help React achieve?",
+      "options": [
+        "Direct database access",
+        "Faster server-side rendering",
+        "Efficient updates by minimizing direct DOM manipulation",
+        "Improved CSS styling"
+      ],
+      "answer": "Efficient updates by minimizing direct DOM manipulation"
+    },
+    {
+        "question": "In React, components must return...",
+        "options": [
+            "An object",
+            "An array",
+            "A single root element (or a Fragment)",
+            "A string"
+        ],
+        "answer": "A single root element (or a Fragment)"
     }
   ],
   "react-lists": [
@@ -225,6 +490,31 @@
         "Filtering list items"
       ],
       "answer": "Helping React identify items that changed"
+    },
+    {
+      "question": "What should be used as a `key` prop value?",
+      "options": [
+        "The array index",
+        "A random number",
+        "A unique and stable identifier for the item",
+        "The item's content"
+      ],
+      "answer": "A unique and stable identifier for the item"
+    },
+    {
+      "question": "How can you render list items conditionally based on a property (e.g., only show active items)?",
+      "options": [
+        "Using `array.map()` followed by `.filter()`",
+        "Using `array.filter()` followed by `.map()`",
+        "Using a `for` loop inside JSX",
+        "Using CSS `display: none`"
+      ],
+      "answer": "Using `array.filter()` followed by `.map()`"
+    },
+    {
+      "question": "What can you use if you need to return multiple list items from a component without adding an extra DOM node?",
+      "options": ["<div>", "<span>", "<React.Fragment> or <>", "<List>"],
+      "answer": "<React.Fragment> or <>"
     }
   ],
   "react-useeffect": [
@@ -252,6 +542,36 @@
       "question": "What should be returned from `useEffect` to perform cleanup (e.g., unsubscribe)?",
       "options": ["A boolean", "A promise", "A function", "null"],
       "answer": "A function"
+    },
+    {
+      "question": "If a `useEffect` hook depends on a variable from the component scope, where should that variable be included?",
+      "options": [
+        "Inside the effect function",
+        "In the dependency array",
+        "In the cleanup function",
+        "Nowhere, it's automatically tracked"
+      ],
+      "answer": "In the dependency array"
+    },
+    {
+      "question": "When does the cleanup function returned by `useEffect` run?",
+      "options": [
+        "Only when the component unmounts",
+        "Before every re-run of the effect and when the component unmounts",
+        "After every re-run of the effect",
+        "Immediately after the effect function runs"
+      ],
+      "answer": "Before every re-run of the effect and when the component unmounts"
+    },
+    {
+        "question": "Common examples of side effects managed by `useEffect` include:",
+        "options": [
+            "Updating state",
+            "Rendering JSX",
+            "Fetching data, setting up subscriptions, manually changing the DOM",
+            "Defining helper functions"
+        ],
+        "answer": "Fetching data, setting up subscriptions, manually changing the DOM"
     }
   ],
   "react-router": [
@@ -279,6 +599,31 @@
         "useRouteMatch()"
       ],
       "answer": "useParams()"
+    },
+    {
+      "question": "Which component is used to create navigation links that prevent full page reloads?",
+      "options": ["<a>", "<NavLink>", "<Link>", "Both <NavLink> and <Link>"],
+      "answer": "Both <NavLink> and <Link>"
+    },
+    {
+      "question": "Which hook allows you to programmatically navigate to a different route?",
+      "options": ["useLocation()", "useParams()", "useNavigate()", "useHistory()"],
+      "answer": "useNavigate()"
+    },
+    {
+      "question": "Which component is used as a placeholder to render the matched child route in nested routing setups?",
+      "options": ["<Route>", "<Switch>", "<Outlet>", "<NestedRoute>"],
+      "answer": "<Outlet>"
+    },
+    {
+        "question": "How do you define a dynamic route parameter named 'userId' in a <Route> path?",
+        "options": [
+            "path='/users?id'",
+            "path='/users/{userId}'",
+            "path='/users/:userId'",
+            "path='/users?userId='"
+        ],
+        "answer": "path='/users/:userId'"
     }
   ],
   "git": [
@@ -298,9 +643,44 @@
       "answer": "Both 'git checkout' and 'git switch'"
     },
     {
-      "question": "What command downloads changes from a remote repository?",
+      "question": "What command downloads changes from a remote repository and merges them into your current branch?",
       "options": ["git fetch", "git pull", "git download", "git clone"],
       "answer": "git pull"
+    },
+    {
+      "question": "What command saves your staged changes into the local repository history?",
+      "options": ["git save", "git stage", "git commit", "git push"],
+      "answer": "git commit"
+    },
+    {
+      "question": "What command shows the current status of your working directory and staging area?",
+      "options": ["git status", "git log", "git diff", "git show"],
+      "answer": "git status"
+    },
+    {
+      "question": "What command is used to create a copy of a remote repository on your local machine?",
+      "options": ["git pull", "git fetch", "git clone", "git init"],
+      "answer": "git clone"
+    },
+    {
+      "question": "What command uploads your local commits to the remote repository?",
+      "options": ["git upload", "git send", "git commit", "git push"],
+      "answer": "git push"
+    },
+    {
+        "question": "What is the purpose of a `.gitignore` file?",
+        "options": [
+            "To list project dependencies",
+            "To store Git configuration",
+            "To specify intentionally untracked files that Git should ignore",
+            "To define commit message templates"
+        ],
+        "answer": "To specify intentionally untracked files that Git should ignore"
+    },
+    {
+        "question": "What command displays the commit history?",
+        "options": ["git history", "git status", "git log", "git show"],
+        "answer": "git log"
     }
   ]
 }
