@@ -1,0 +1,378 @@
+[
+  {
+    "id": "js-basics",
+    "category": "javascript",
+    "title": "MDN: JavaScript Basics",
+    "desc": "Fundamental concepts of JavaScript.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction",
+    "type": "Documentation"
+  },
+  {
+    "id": "es6",
+    "category": "javascript",
+    "title": "ES6 Features",
+    "desc": "Overview of modern JavaScript syntax.",
+    "url": "https://www.w3schools.com/js/js_es6.asp",
+    "type": "Tutorial"
+  },
+  {
+    "id": "js-functions",
+    "category": "javascript",
+    "title": "MDN: Functions",
+    "desc": "In-depth guide to JavaScript functions.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions",
+    "type": "Documentation"
+  },
+  {
+    "id": "js-scope",
+    "category": "javascript",
+    "title": "MDN: Scope",
+    "desc": "Understanding variable scope in JS.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope",
+    "type": "Documentation"
+  },
+  {
+    "id": "js-async",
+    "category": "javascript",
+    "title": "MDN: Asynchronous JavaScript",
+    "desc": "Core concepts of async programming.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function",
+    "type": "Documentation"
+  },
+  {
+    "id": "js-promises",
+    "category": "javascript",
+    "title": "MDN: Promises",
+    "desc": "Using Promises for async operations.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises",
+    "type": "Documentation"
+  },
+  {
+    "id": "js-async-await",
+    "category": "javascript",
+    "title": "MDN: async/await",
+    "desc": "Using async/await syntax.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function",
+    "type": "Documentation"
+  },
+  {
+    "id": "fetch-api",
+    "category": "javascript",
+    "title": "MDN: Fetch API",
+    "desc": "Making network requests with Fetch.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+    "type": "Documentation"
+  },
+  {
+    "id": "js-arrays",
+    "category": "javascript",
+    "title": "MDN: Array Methods",
+    "desc": "Essential methods for arrays.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "type": "Documentation"
+  },
+  {
+    "id": "js-objects",
+    "category": "javascript",
+    "title": "MDN: Working with Objects",
+    "desc": "Guide to JavaScript objects.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects",
+    "type": "Documentation"
+  },
+  {
+    "id": "js-modules",
+    "category": "javascript",
+    "title": "MDN: Modules",
+    "desc": "JavaScript ES6 Modules.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+    "type": "Documentation"
+  },
+  {
+    "id": "node-intro",
+    "category": "node",
+    "title": "Node.js Official Docs",
+    "desc": "Introduction to Node.js.",
+    "url": "https://nodejs.org/en/docs/",
+    "type": "Documentation"
+  },
+  {
+    "id": "npm",
+    "category": "node",
+    "title": "NPM Documentation",
+    "desc": "Using the Node Package Manager.",
+    "url": "https://docs.npmjs.com/",
+    "type": "Documentation"
+  },
+  {
+    "id": "express-intro",
+    "category": "express",
+    "title": "Express.js Official Docs",
+    "desc": "Getting started with Express.",
+    "url": "https://expressjs.com/en/starter/hello-world.html",
+    "type": "Documentation"
+  },
+  {
+    "id": "express-routing",
+    "category": "express",
+    "title": "Express Routing Guide",
+    "desc": "Defining routes in Express.",
+    "url": "https://expressjs.com/en/guide/routing.html",
+    "type": "Documentation"
+  },
+  {
+    "id": "express-middleware",
+    "category": "express",
+    "title": "Express Middleware Guide",
+    "desc": "Using middleware.",
+    "url": "https://expressjs.com/en/guide/using-middleware.html",
+    "type": "Documentation"
+  },
+  {
+    "id": "mongodb-intro",
+    "category": "mongodb",
+    "title": "MongoDB Manual",
+    "desc": "Official MongoDB documentation.",
+    "url": "https://www.mongodb.com/docs/manual/",
+    "type": "Documentation"
+  },
+  {
+    "id": "mongodb-atlas",
+    "category": "mongodb",
+    "title": "MongoDB Atlas",
+    "desc": "Cloud MongoDB service.",
+    "url": "https://www.mongodb.com/cloud/atlas",
+    "type": "Service"
+  },
+  {
+    "id": "mongoose-intro",
+    "category": "mongoose",
+    "title": "Mongoose Quick Start",
+    "desc": "Getting started with Mongoose ODM.",
+    "url": "https://mongoosejs.com/docs/index.html",
+    "type": "Documentation"
+  },
+  {
+    "id": "mongoose-crud",
+    "category": "mongoose",
+    "title": "Mongoose Queries",
+    "desc": "Performing CRUD operations.",
+    "url": "https://mongoosejs.com/docs/queries.html",
+    "type": "Documentation"
+  },
+  {
+    "id": "mongoose-queries",
+    "category": "mongoose",
+    "title": "Mongoose Models",
+    "desc": "Defining and using models.",
+    "url": "https://mongoosejs.com/docs/models.html",
+    "type": "Documentation"
+  },
+  {
+    "id": "react-intro",
+    "category": "react",
+    "title": "React Official Docs",
+    "desc": "The new React documentation.",
+    "url": "https://react.dev/",
+    "type": "Documentation"
+  },
+  {
+    "id": "vite",
+    "category": "react",
+    "title": "Vite Documentation",
+    "desc": "Fast frontend build tool.",
+    "url": "https://vitejs.dev/",
+    "type": "Tool"
+  },
+  {
+    "id": "react-jsx",
+    "category": "react",
+    "title": "React: Writing Markup with JSX",
+    "desc": "Understanding JSX.",
+    "url": "https://react.dev/learn/writing-markup-with-jsx",
+    "type": "Documentation"
+  },
+  {
+    "id": "react-components-props",
+    "category": "react",
+    "title": "React: Components & Props",
+    "desc": "Building reusable UIs.",
+    "url": "https://react.dev/learn/passing-props-to-a-component",
+    "type": "Documentation"
+  },
+  {
+    "id": "react-state",
+    "category": "react",
+    "title": "React: State Hook",
+    "desc": "Using the useState hook.",
+    "url": "https://react.dev/reference/react/useState",
+    "type": "Documentation"
+  },
+  {
+    "id": "react-events",
+    "category": "react",
+    "title": "React: Handling Events",
+    "desc": "Responding to user interactions.",
+    "url": "https://react.dev/learn/responding-to-events",
+    "type": "Documentation"
+  },
+  {
+    "id": "react-conditional",
+    "category": "react",
+    "title": "React: Conditional Rendering",
+    "desc": "Showing content conditionally.",
+    "url": "https://react.dev/learn/conditional-rendering",
+    "type": "Documentation"
+  },
+  {
+    "id": "react-lists",
+    "category": "react",
+    "title": "React: Rendering Lists",
+    "desc": "Displaying lists of data.",
+    "url": "https://react.dev/learn/rendering-lists",
+    "type": "Documentation"
+  },
+  {
+    "id": "react-forms",
+    "category": "react",
+    "title": "React: Controlled Components",
+    "desc": "Handling forms.",
+    "url": "https://react.dev/learn/sharing-state-between-components#controlled-and-uncontrolled-components",
+    "type": "Documentation"
+  },
+  {
+    "id": "react-useeffect",
+    "category": "react",
+    "title": "React: useEffect Hook",
+    "desc": "Handling side effects.",
+    "url": "https://react.dev/reference/react/useEffect",
+    "type": "Documentation"
+  },
+  {
+    "id": "react-router",
+    "category": "react",
+    "title": "React Router Docs",
+    "desc": "Client-side routing library.",
+    "url": "https://reactrouter.com/en/main",
+    "type": "Library Docs"
+  },
+  {
+    "id": "cors",
+    "category": "concepts",
+    "title": "MDN: CORS",
+    "desc": "Understanding Cross-Origin Resource Sharing.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS",
+    "type": "Concept"
+  },
+  {
+    "id": "rest-api",
+    "category": "concepts",
+    "title": "REST API Concepts",
+    "desc": "Principles of RESTful APIs.",
+    "url": "https://restfulapi.net/",
+    "type": "Concept"
+  },
+  {
+    "id": "git",
+    "category": "git",
+    "title": "Git Official Docs",
+    "desc": "Version control system.",
+    "url": "https://git-scm.com/doc",
+    "type": "Documentation"
+  },
+  {
+    "id": "github",
+    "category": "git",
+    "title": "GitHub Guides",
+    "desc": "Using GitHub for collaboration.",
+    "url": "https://guides.github.com/",
+    "type": "Platform Guide"
+  },
+  {
+    "id": "tools-postman",
+    "category": "tools",
+    "title": "Postman",
+    "desc": "API testing tool.",
+    "url": "https://www.postman.com/",
+    "type": "Tool"
+  },
+  {
+    "id": "debugging",
+    "category": "concepts",
+    "title": "Browser DevTools Guide",
+    "desc": "Debugging in the browser.",
+    "url": "https://developer.chrome.com/docs/devtools/",
+    "type": "Tool Guide"
+  },
+  {
+    "id": "project-ideas",
+    "category": "concepts",
+    "title": "MERN Project Ideas",
+    "desc": "Inspiration for projects.",
+    "url": "https://github.com/florinpop17/app-ideas",
+    "type": "Inspiration"
+  },
+  {
+    "id": "auth-jwt",
+    "category": "concepts",
+    "title": "JWT Introduction",
+    "desc": "JSON Web Tokens for authentication.",
+    "url": "https://jwt.io/introduction",
+    "type": "Concept"
+  },
+  {
+    "id": "react-context",
+    "category": "react",
+    "title": "React: Context API",
+    "desc": "Managing global state.",
+    "url": "https://react.dev/learn/passing-data-deeply-with-context",
+    "type": "Documentation"
+  },
+  {
+    "id": "react-redux",
+    "category": "react",
+    "title": "Redux Toolkit",
+    "desc": "Popular state management library.",
+    "url": "https://redux-toolkit.js.org/",
+    "type": "Library Docs"
+  },
+  {
+    "id": "deployment",
+    "category": "concepts",
+    "title": "Vercel/Netlify",
+    "desc": "Platforms for deploying web apps.",
+    "url": "https://vercel.com/",
+    "type": "Platform"
+  },
+  {
+    "id": "testing",
+    "category": "concepts",
+    "title": "Testing JavaScript",
+    "desc": "Overview of testing practices.",
+    "url": "https://testingjavascript.com/",
+    "type": "Resource"
+  },
+  {
+    "id": "css",
+    "category": "css",
+    "title": "MDN: CSS Basics",
+    "desc": "Fundamental concepts of CSS.",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps",
+    "type": "Documentation"
+  },
+  {
+    "id": "css-flexbox",
+    "category": "css",
+    "title": "CSS Tricks: Flexbox Guide",
+    "desc": "Comprehensive guide to Flexbox.",
+    "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+    "type": "Tutorial"
+  },
+  {
+    "id": "css-grid",
+    "category": "css",
+    "title": "CSS Tricks: Grid Guide",
+    "desc": "Comprehensive guide to CSS Grid.",
+    "url": "https://css-tricks.com/snippets/css/complete-guide-grid/",
+    "type": "Tutorial"
+  }
+]

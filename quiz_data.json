@@ -1,0 +1,306 @@
+{
+  "js-basics": [
+    {
+      "question": "Which keyword declares a block-scoped variable that can be reassigned?",
+      "options": ["var", "let", "const", "static"],
+      "answer": "let"
+    },
+    {
+      "question": "What does the '===' operator check for?",
+      "options": [
+        "Value only",
+        "Type only",
+        "Value and type",
+        "Reference equality"
+      ],
+      "answer": "Value and type"
+    },
+    {
+      "question": "How do you write a single-line comment in JavaScript?",
+      "options": [
+        "<!-- comment -->",
+        "/* comment */",
+        "// comment",
+        "# comment"
+      ],
+      "answer": "// comment"
+    },
+    {
+      "question": "What is the purpose of `use strict`?",
+      "options": [
+        "Enables modern syntax",
+        "Enforces stricter parsing and error handling",
+        "Optimizes code execution",
+        "Imports external modules"
+      ],
+      "answer": "Enforces stricter parsing and error handling"
+    },
+    {
+      "question": "Which is NOT a primitive data type in JavaScript?",
+      "options": ["string", "number", "object", "boolean"],
+      "answer": "object"
+    }
+  ],
+  "js-functions": [
+    {
+      "question": "What is a function passed as an argument to another function called?",
+      "options": [
+        "Callback function",
+        "Higher-order function",
+        "Arrow function",
+        "Generator function"
+      ],
+      "answer": "Callback function"
+    },
+    {
+      "question": "An arrow function `() => {}` does NOT have its own:",
+      "options": [
+        "Arguments object",
+        "this binding",
+        "prototype property",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What concept allows an inner function to access variables from its outer scope?",
+      "options": ["Hoisting", "Recursion", "Closure", "Prototypal Inheritance"],
+      "answer": "Closure"
+    },
+    {
+      "question": "What keyword is used to define a function?",
+      "options": ["def", "fun", "function", "define"],
+      "answer": "function"
+    }
+  ],
+  "js-arrays": [
+    {
+      "question": "Which method adds one or more elements to the end of an array?",
+      "options": [".shift()", ".pop()", ".push()", ".unshift()"],
+      "answer": ".push()"
+    },
+    {
+      "question": "Which method returns a new array containing elements that pass a test?",
+      "options": [".map()", ".filter()", ".reduce()", ".forEach()"],
+      "answer": ".filter()"
+    },
+    {
+      "question": "Which method executes a reducer function on each element, resulting in a single output value?",
+      "options": [".map()", ".find()", ".reduce()", ".slice()"],
+      "answer": ".reduce()"
+    },
+    {
+      "question": "How do you access the third element in an array named `myArray`?",
+      "options": ["myArray[3]", "myArray(2)", "myArray.get(3)", "myArray[2]"],
+      "answer": "myArray[2]"
+    }
+  ],
+  "node-intro": [
+    {
+      "question": "What JavaScript runtime environment is Node.js built on?",
+      "options": ["SpiderMonkey", "JavaScriptCore", "Chakra", "V8"],
+      "answer": "V8"
+    },
+    {
+      "question": "What command initializes a new Node.js project and creates a `package.json` file?",
+      "options": ["npm start", "npm init", "node create", "npm new"],
+      "answer": "npm init"
+    },
+    {
+      "question": "Which core module is used for working with the file system in Node.js?",
+      "options": ["http", "url", "fs", "path"],
+      "answer": "fs"
+    }
+  ],
+  "react-state": [
+    {
+      "question": "Which hook is used to manage state in a functional React component?",
+      "options": ["useEffect", "useContext", "useState", "useReducer"],
+      "answer": "useState"
+    },
+    {
+      "question": "When using `useState`, what does the hook return?",
+      "options": [
+        "A state variable",
+        "A function to update the state",
+        "An array with the state variable and the update function",
+        "An object with state properties"
+      ],
+      "answer": "An array with the state variable and the update function"
+    },
+    {
+      "question": "Why should you not modify state directly in React?",
+      "options": [
+        "It causes performance issues",
+        "React won't re-render the component",
+        "It can lead to memory leaks",
+        "It violates JavaScript rules"
+      ],
+      "answer": "React won't re-render the component"
+    }
+  ],
+  "mongodb-setup": [
+    {
+      "question": "MongoDB stores data in flexible, JSON-like documents called:",
+      "options": ["Tables", "Records", "Collections", "BSON Documents"],
+      "answer": "BSON Documents"
+    },
+    {
+      "question": "What is MongoDB Atlas?",
+      "options": [
+        "A command-line interface",
+        "A database schema",
+        "A cloud database service",
+        "A query language"
+      ],
+      "answer": "A cloud database service"
+    },
+    {
+      "question": "What does ODM stand for in the context of Mongoose?",
+      "options": [
+        "Object Data Mapper",
+        "Object Document Mapper",
+        "Online Data Manager",
+        "Object Database Model"
+      ],
+      "answer": "Object Document Mapper"
+    }
+  ],
+  "mongoose-crud": [
+    {
+      "question": "Which Mongoose method is used to create a new document?",
+      "options": [".find()", ".insert()", ".create()", ".add()"],
+      "answer": ".create()"
+    },
+    {
+      "question": "Which Mongoose method finds the first document matching criteria?",
+      "options": [".find()", ".findOne()", ".findAll()", ".selectOne()"],
+      "answer": ".findOne()"
+    },
+    {
+      "question": "Which method is commonly used to update a document by its ID?",
+      "options": [
+        ".updateById()",
+        ".modifyById()",
+        ".saveById()",
+        ".findByIdAndUpdate()"
+      ],
+      "answer": ".findByIdAndUpdate()"
+    }
+  ],
+  "react-intro": [
+    {
+      "question": "What is JSX?",
+      "options": [
+        "A JavaScript library",
+        "A CSS preprocessor",
+        "A syntax extension for JavaScript",
+        "A state management tool"
+      ],
+      "answer": "A syntax extension for JavaScript"
+    },
+    {
+      "question": "How do you pass data from a parent component to a child component in React?",
+      "options": ["State", "Props", "Context", "Refs"],
+      "answer": "Props"
+    },
+    {
+      "question": "What build tool is commonly used to set up modern React projects quickly?",
+      "options": ["Webpack", "Parcel", "Vite", "Browserify"],
+      "answer": "Vite"
+    }
+  ],
+  "react-lists": [
+    {
+      "question": "Which JavaScript array method is typically used to render lists in React?",
+      "options": [".forEach()", ".filter()", ".map()", ".reduce()"],
+      "answer": ".map()"
+    },
+    {
+      "question": "Why is the `key` prop important when rendering lists?",
+      "options": [
+        "Styling list items",
+        "Handling click events",
+        "Helping React identify items that changed",
+        "Filtering list items"
+      ],
+      "answer": "Helping React identify items that changed"
+    }
+  ],
+  "react-useeffect": [
+    {
+      "question": "What is the primary purpose of the `useEffect` hook?",
+      "options": [
+        "Managing component state",
+        "Handling user events",
+        "Performing side effects",
+        "Conditional rendering"
+      ],
+      "answer": "Performing side effects"
+    },
+    {
+      "question": "How do you make `useEffect` run only once after the initial render?",
+      "options": [
+        "Omit the dependency array",
+        "Pass an empty dependency array `[]`",
+        "Return a cleanup function",
+        "Pass `null` as the dependency"
+      ],
+      "answer": "Pass an empty dependency array `[]`"
+    },
+    {
+      "question": "What should be returned from `useEffect` to perform cleanup (e.g., unsubscribe)?",
+      "options": ["A boolean", "A promise", "A function", "null"],
+      "answer": "A function"
+    }
+  ],
+  "react-router": [
+    {
+      "question": "Which library is commonly used for routing in React applications?",
+      "options": [
+        "React Navigation",
+        "Next.js Router",
+        "React Router DOM",
+        "Reach Router"
+      ],
+      "answer": "React Router DOM"
+    },
+    {
+      "question": "Which React Router component is used to define a route and the component to render?",
+      "options": ["<Link>", "<Router>", "<Route>", "<Navigate>"],
+      "answer": "<Route>"
+    },
+    {
+      "question": "Which hook from React Router is used to access URL parameters?",
+      "options": [
+        "useNavigate()",
+        "useLocation()",
+        "useParams()",
+        "useRouteMatch()"
+      ],
+      "answer": "useParams()"
+    }
+  ],
+  "git": [
+    {
+      "question": "What command stages changes for the next commit?",
+      "options": ["git commit", "git push", "git stage", "git add"],
+      "answer": "git add"
+    },
+    {
+      "question": "What command switches to a different branch?",
+      "options": [
+        "git branch",
+        "git checkout",
+        "git switch",
+        "Both 'git checkout' and 'git switch'"
+      ],
+      "answer": "Both 'git checkout' and 'git switch'"
+    },
+    {
+      "question": "What command downloads changes from a remote repository?",
+      "options": ["git fetch", "git pull", "git download", "git clone"],
+      "answer": "git pull"
+    }
+  ]
+}
