@@ -14,7 +14,7 @@ Please ensure your code follows the existing style and structure.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file (if one exists) for details, or assume MIT if not present.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
 
